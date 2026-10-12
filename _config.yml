@@ -1,0 +1,22 @@
+title: A Stroll Through the Apocalypse
+description: Small notes from the days as they happen.
+baseurl: "/a-stroll-through-the-apocalypse"
+url: ""
+timezone: UTC
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+future: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

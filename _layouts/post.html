@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article class="single-entry">
+  <a class="back-link" href="{{ '/' | relative_url }}">← All entries</a>
+  <header class="single-entry-header">
+    <p class="eyebrow">A day in the journal</p>
+    <h1>{{ page.date | date: "%B %-d, %Y" }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>
