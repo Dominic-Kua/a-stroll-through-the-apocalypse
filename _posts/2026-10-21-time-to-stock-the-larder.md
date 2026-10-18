@@ -27,3 +27,9 @@ You have to look on the bright side, I know what dwelling on the dark is like.
 
 My house is now very well equipped and today I will be actually using the
 exercise equipment in my garage. One Punch Man can only be a few months away. 
+The pantry is overflowing, literally. I've also done a full clean. I declatred
+number seventeen's house to be the local tip, one thing I do not miss is the
+sound of them playing music at ungodly levels at all hours. Well I am filling
+their house with rubbish and their garden will be my composting point. 
+
+I have big plans and nothing else to really do.
