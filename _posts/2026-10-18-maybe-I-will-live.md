@@ -11,7 +11,7 @@ title: Maybe I will Live
 Today is better, decided to use some battery power from the house down the
 street and have hot food. 100% worth it. Nothing like a Frey bentos pie and some
 hot potatoes in a can with hot peas and even a hot cup of tea. Honestly, I need
-power more for winter. I should probably start working out where that actually,
+power more for winter. I should probably start working out where that warehouse actually,
 specifically is. Except of course my maps app is... well, no one's updated it
 and I can't exactly get on the internet any more. No internet for a start. 
 
