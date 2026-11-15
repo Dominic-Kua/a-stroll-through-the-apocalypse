@@ -35,6 +35,20 @@ if [[ -z $latest_date ]]; then
 fi
 
 next_date=$(date -d "$latest_date + 1 day" +%F)
+day=$(date -d "$next_date" +%-d)
+case $day in
+  11|12|13) ordinal_suffix=th ;;
+  *)
+    case $((day % 10)) in
+      1) ordinal_suffix=st ;;
+      2) ordinal_suffix=nd ;;
+      3) ordinal_suffix=rd ;;
+      *) ordinal_suffix=th ;;
+    esac
+    ;;
+esac
+month=$(date -d "$next_date" +%B)
+year=$(date -d "$next_date" +%Y)
 slug=${title// /-}
 new_file="$posts_dir/$next_date-$slug.md"
 if [[ -e $new_file ]]; then
@@ -42,7 +56,8 @@ if [[ -e $new_file ]]; then
   exit 1
 fi
 
-if ! printf '%s\n\nstyle: post\n\ntitle: %s\n\n---\n' '---' "$title" > "$new_file"; then
+if ! printf '%s\n\nstyle: post\n\ntitle: %s\n\n---\n\n## %s%s %s, %s\n' \
+  '---' "$title" "$day" "$ordinal_suffix" "$month" "$year" > "$new_file"; then
   printf 'Could not create file: %s\n' "$new_file" >&2
   exit 1
 fi
