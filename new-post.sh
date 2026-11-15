@@ -34,8 +34,14 @@ if [[ -z $latest_date ]]; then
   exit 1
 fi
 
-next_date=$(date -d "$latest_date + 1 day" +%F)
-day=$(date -d "$next_date" +%-d)
+if next_date=$(date -d "$latest_date + 1 day" +%Y-%m-%d 2>/dev/null); then
+  month=$(date -d "$next_date" +%B)
+else
+  next_date=$(date -j -f "%Y-%m-%d" "$latest_date" -v+1d "+%Y-%m-%d")
+  month=$(date -j -f "%Y-%m-%d" "$next_date" "+%B")
+fi
+
+day=$((10#${next_date:8:2}))
 case $day in
   11|12|13) ordinal_suffix=th ;;
   *)
@@ -47,8 +53,7 @@ case $day in
     esac
     ;;
 esac
-month=$(date -d "$next_date" +%B)
-year=$(date -d "$next_date" +%Y)
+year=${next_date:0:4}
 slug=${title// /-}
 new_file="$posts_dir/$next_date-$slug.md"
 if [[ -e $new_file ]]; then
