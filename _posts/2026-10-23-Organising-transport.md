@@ -6,7 +6,7 @@ title: Organising transport
 
 ---
 
-## 22nd October, 2026
+## 23rd October, 2026
 
 So I know what I want to get, but I've been thinking about this all wrong.
 Taking one van is short term thinking. I've remembered something, those

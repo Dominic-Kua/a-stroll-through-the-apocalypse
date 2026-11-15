@@ -6,7 +6,7 @@ title: Setting up the entertainment station
 
 ---
 
-## 8th October 2026
+## 8th November 2026
 
 Well, the nights are drawing in and the time is coming where I will need to save
 heat, keep myself happy and live well. 

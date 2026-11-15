@@ -6,7 +6,7 @@ title: corner shops are an under-rated resource
 
 ---
 
-## 7th October, 2026
+## 7th November, 2026
 
 
 So I called in at the corner shop round where the supermarket is, not far from
