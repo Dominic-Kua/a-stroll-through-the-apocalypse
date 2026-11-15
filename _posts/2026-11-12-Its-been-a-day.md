@@ -6,7 +6,7 @@ title: It's been a day
 
 ---
 
-# 12th October, 2026
+# 12th November, 2026
 
 So big developments today. Really put my plans to move out of here into
 perspective. This morning I thought it was a nice day and I wanted to go for

@@ -6,7 +6,7 @@ title: water water everywhere
 
 ---
 
-## 14th October, 2026
+## 13th November, 2026
 
 So everything's close now, I've brought the lorry into the village, parked it on
 the road near the local shop, higher ground, should be fine. I can't find a boat

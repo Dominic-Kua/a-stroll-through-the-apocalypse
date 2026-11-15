@@ -6,7 +6,7 @@ title: So now what
 
 ---
 
-## 15th November, 2026
+## 14th November, 2026
 
 Well I've got food, I've got entertainment, I'll keep warm and dry, I have
 a water filter set up on a butt by the back door (and it's already full). 
