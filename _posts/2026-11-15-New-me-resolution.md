@@ -4,7 +4,6 @@ style: post
 
 title: New me resolution
 
-
 ---
 
 ## 15th November, 2026
