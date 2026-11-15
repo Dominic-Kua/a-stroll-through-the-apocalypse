@@ -5,7 +5,7 @@ style: post
 title: Time to hit the Christmas sales
 
 ---
-
+## 10th November, 2026
 
 I threatened this a day ago, but of equal, if not greater importance of my
 physical health is my mental health. Which, understandably took a hit when
