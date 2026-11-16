@@ -37,7 +37,7 @@ fi
 if next_date=$(date -d "$latest_date + 1 day" +%Y-%m-%d 2>/dev/null); then
   month=$(date -d "$next_date" +%B)
 else
-  next_date=$(date -j -f "%Y-%m-%d" "$latest_date" -v+1d "+%Y-%m-%d")
+  next_date=$(date -j -v+1d -f "%Y-%m-%d" "$latest_date" "+%Y-%m-%d")
   month=$(date -j -f "%Y-%m-%d" "$next_date" "+%B")
 fi
 
